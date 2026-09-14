@@ -284,7 +284,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/nemo/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc \
     vendor/realme/nemo/proprietary/vendor/etc/init/vendor.trustonic.tee@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.trustonic.tee@1.1-service.rc \
     vendor/realme/nemo/proprietary/vendor/etc/init/vpud.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vpud.rc \
-    vendor/realme/nemo/proprietary/vendor/etc/init/wlan_assistant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wlan_assistant.rc \
     vendor/realme/nemo/proprietary/vendor/etc/ipsec/ipsec.conf:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.conf \
     vendor/realme/nemo/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/DigiCertGlobalRootCA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/DigiCertGlobalRootCA.crt \
     vendor/realme/nemo/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/DigiCertGlobalRootG2.crt:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/DigiCertGlobalRootG2.crt \
@@ -1273,7 +1272,6 @@ PRODUCT_PACKAGES += \
     volte_ua \
     vpud \
     wfca \
-    wlan_assistant \
     wmt_launcher \
     wmt_loader \
     xcap \
