@@ -361,7 +361,6 @@ PRODUCT_PACKAGES += \
     libTEECommon \
     libaal_mtk \
     libaalservice \
-    libaedv \
     libbwc \
     libcapctrl \
     libcares_naptr \
@@ -389,7 +388,6 @@ PRODUCT_PACKAGES += \
     libipsec_ims_shr \
     libjpeg-alpha-oal_vendor \
     libjpeg-alpha_vendor \
-    libladder \
     libmtcloader \
     libmtk_drvb \
     libmtkares \
