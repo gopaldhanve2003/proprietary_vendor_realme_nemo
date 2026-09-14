@@ -1214,7 +1214,6 @@ PRODUCT_PACKAGES += \
     mediatek-telephony-common \
     android.hardware.gpu@1.0-service.xml \
     android.hardware.neuralnetworks@1.3-service-mtk-dsp-gpu.xml \
-    manifest.xml \
     manifest_android.hardware.drm@1.4-service.widevine.xml \
     oplus_appradio_device_manifest.xml \
     oplus_radio_device_manifest.xml \
