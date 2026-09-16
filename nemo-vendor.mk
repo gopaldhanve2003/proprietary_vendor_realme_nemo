@@ -416,6 +416,7 @@ PRODUCT_PACKAGES += \
     libvpu \
     libwo \
     vendor.mediatek.hardware.audio@6.1 \
+    vendor.mediatek.hardware.bluetooth.audio@2.1 \
     vendor.mediatek.hardware.gpu@1.0 \
     vendor.mediatek.hardware.keyinstall@1.0 \
     vendor.mediatek.hardware.mms@1.0 \
