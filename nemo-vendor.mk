@@ -1203,15 +1203,10 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.radio@1.0 \
     ImsService \
     EngineerMode \
-    mediatek-common \
-    mediatek-framework \
     mediatek-ims-base \
-    mediatek-ims-common \
     mediatek-ims-extension-plugin \
     mediatek-ims-legacy \
-    mediatek-telecom-common \
     mediatek-telephony-base \
-    mediatek-telephony-common \
     android.hardware.gpu@1.0-service.xml \
     android.hardware.neuralnetworks@1.3-service-mtk-dsp-gpu.xml \
     manifest_android.hardware.drm@1.4-service.widevine.xml \
@@ -1282,3 +1277,7 @@ PRODUCT_PACKAGES += \
     vendor_lib64_hw_kmsetkey_default_so \
     vendor_lib64_hw_gatekeeper_mt6785_so \
     vendor_lib64_hw_gatekeeper_default_so
+
+PRODUCT_BOOT_JARS += \
+    mediatek-ims-base \
+    mediatek-telephony-base
