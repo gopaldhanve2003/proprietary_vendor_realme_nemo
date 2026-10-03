@@ -5388,7 +5388,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libmnl",
+    name: "libmnl_mtk",
     owner: "realme",
     strip: {
         none: true,
@@ -5396,7 +5396,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm: {
             srcs: [
-                "proprietary/vendor/lib/libmnl.so",
+                "proprietary/vendor/lib/libmnl_mtk.so",
             ],
         },
     },
@@ -26662,7 +26662,7 @@ cc_prebuilt_binary {
             ],
             shared_libs: [
                 "android.hardware.sensors@1.0-convert-shared",
-                "libmnl",
+                "libmnl_mtk",
                 "libcurl",
                 "libcutils",
                 "libnvram",
