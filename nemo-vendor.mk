@@ -422,7 +422,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mms@1.3 \
     vendor.mediatek.hardware.mms@1.4 \
     vendor.mediatek.hardware.mms@1.5 \
-    vendor.mediatek.hardware.netdagent@1.0 \
     vendor.mediatek.hardware.pq@2.0 \
     vendor.mediatek.hardware.pq@2.1 \
     vendor.mediatek.hardware.pq@2.2 \
@@ -1170,9 +1169,7 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.engineermode@1.3 \
     vendor.mediatek.hardware.keymaster_attestation@1.0 \
     vendor.mediatek.hardware.keymaster_attestation@1.1 \
-    vendor.mediatek.hardware.lbs@1.0 \
     vendor.mediatek.hardware.mdmonitor@1.0 \
-    vendor.mediatek.hardware.mtkradioex@2.0 \
     vendor.mediatek.hardware.nvram@1.0 \
     vendor.mediatek.hardware.nvram@1.1 \
     vendor.mediatek.hardware.power@1.1 \
